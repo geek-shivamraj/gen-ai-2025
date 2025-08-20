@@ -1,0 +1,12 @@
+pip install -r requirements.txt
+
+
+# ollama commands:
+
+ollama pull mxbai-embed-large
+
+ollama pull nomic-embed-text
+
+ollama list
+
+ollama rm mxbai-embed-large:latest
